@@ -824,7 +824,7 @@
     .carousel-control:hover,
     .carousel-control:focus { opacity: 0.5;filter: alpha(opacity=50); }
 
-    /* Modals */
+    /* Modals
     .pix-letter-popup { background-image: url('../images/main/newsletter-pattern.png');background-position: top;background-repeat: repeat-x; }
     .modal {
         background: rgba(0,0,0,0);
@@ -883,3 +883,4 @@
             width: 400px;
         }
     }
+     */

@@ -100,11 +100,11 @@
 								methods and the perfect combination of modern fitness products.
 							</span>
 						</p>
-						<a href="#" class="btn green-blue-bg btn-lg pix-white">
+						<button type="button" class="btn green-blue-bg btn-lg pix-white" data-toggle="modal" data-target="#exampleModal">
 							<span class="pix_edit_text">
 								<strong>Order For 157 RON</strong>
 							</span>
-						</a>
+						</button>
 					</div>
 				</div>
 			</div>
@@ -195,11 +195,11 @@
 								</ul>
 							</span>
 						</p>
-						<a href="#" class="btn green-blue-bg btn-md pix-white">
+						<button type="button" class="btn green-blue-bg btn-md pix-white" data-toggle="modal" data-target="#exampleModal">
 							<span class="pix_edit_text">
 								<strong>Order Today</strong>
 							</span>
-						</a>
+						</button>
 					</div>
 				</div>
 			</div>
@@ -226,11 +226,11 @@
 								</ul>
 							</span>
 						</p>
-						<a href="#" class="btn green-blue-bg btn-md pix-white">
+						<button type="button" class="btn green-blue-bg btn-md pix-white" data-toggle="modal" data-target="#exampleModal">
 							<span class="pix_edit_text">
 								<strong>Order Today 257 RON</strong>
 							</span>
-						</a>
+						</button>
 					</div>
 				</div>
 				<div class="col-md-6 col-xs-12 text-center">
@@ -273,11 +273,11 @@
 						<p class="pix-black-gray-light pix-margin-bottom-30">
 							<span class="pix_edit_text">Color-coded system identifies muscle groups worked (Chest, Shoulders, Back, Triceps)</span>
 						</p>
-						<a href="#" class="btn btn-md green-yellow-bg pix-white wide">
+						<button type="button" class="btn btn-md green-yellow-bg pix-white wide" data-toggle="modal" data-target="#exampleModal">
 							<span class="pix_edit_text">
 								<strong>Order</strong>
 							</span>
-						</a>
+						</button>
 					</div>
 				</div>
 				<div class="col-md-6 col-xs-12">
@@ -292,11 +292,11 @@
 						<p class="pix-green-blue-2 pix-margin-bottom-30">
 							<span class="pix_edit_text">Color-coded system identifies muscle groups worked (Chest, Shoulders, Back, Triceps)</span>
 						</p>
-						<a href="#" class="btn btn-md green-yellow-bg pix-white wide">
+						<button type="button" class="btn btn-md green-yellow-bg pix-white wide" data-toggle="modal" data-target="#exampleModal">
 							<span class="pix_edit_text">
 								<strong>Order</strong>
 							</span>
-						</a>
+						</button>
 					</div>
 				</div>
 			</div>
@@ -387,7 +387,6 @@
 			</div>
 		</div>
 	</div>
-
 	<!-- Footer -->
 	<div class="pix_section pix-padding-v-20">
 		<div class="container">
@@ -478,6 +477,68 @@
 			</div>
 		</div>
 	</div>
+<!-- Modal -->
+<div class="modal fade pix-letter-popup" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<form class="form-horizontal">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+						aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Order Form</h4>
+			</div>
+			<div class="modal-body">
+					<div class="form-group">
+						<label for="inputName" class="col-sm-2 control-label">Name</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="inputEmail3" placeholder="Name" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputEmail" class="col-sm-2 control-label">Email</label>
+						<div class="col-sm-10">
+							<input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputPhoneNumber" class="col-sm-2 control-label">Number</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="inputPhoneNumber" placeholder="Phone Number" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputCountry" class="col-sm-2 control-label">Country</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="inputCountry" placeholder="Country" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputTown" class="col-sm-2 control-label">Town</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="inputTown" placeholder="Town" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputAdress" class="col-sm-2 control-label">Adress</label>
+						<div class="col-sm-10">
+							<textarea class="form-control" id="inputAdress" placeholder="Adress" rows="3" required></textarea>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputNumberItems" class="col-sm-2 control-label" min="1">Products</label>
+						<div class="col-sm-10">
+							<input type="number" class="form-control" id="inputNumberItems" placeholder="0" required>
+						</div>
+					</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				<button type="submit" class="btn btn-primary">Save changes</button>
+			</div>
+		</form>
+		</div>
+	</div>
+</div>
 
 	<!-- Javascript -->
 	<script src="js/jquery-1.11.2.js"></script>
